@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, button, input {
+  font-family: -apple-system, Ubuntu, Arial, sans-serif;
+}
+
+*, li {
+  list-style: none;
+}
+/*# sourceMappingURL=styles.css.map */
