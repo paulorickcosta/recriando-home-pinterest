@@ -1,3 +1,11 @@
+.grid-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(7, 252px);
@@ -12,8 +20,12 @@
 }
 
 .item {
-    width: 100%;
+    width: 236px;
     height: 350px;
     background: $red;
     border-radius: 10px;
+}
+
+.item:not(:first-child) {
+    margin-top: 16px;
 }
