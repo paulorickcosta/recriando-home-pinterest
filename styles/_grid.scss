@@ -17,6 +17,28 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    &:nth-child(1) {
+        margin-top:0;
+    }
+    &:nth-child(2) {
+        margin-top:160;
+    }
+    &:nth-child(3) {
+        margin-top:320;
+    }
+    &:nth-child(4) {
+        margin-top:480;
+    }
+    &:nth-child(5) {
+        margin-top:320;
+    }
+    &:nth-child(6) {
+        margin-top:160;
+    }
+    &:nth-child(7) {
+        margin-top:0;
+    }
 }
 
 .item {
